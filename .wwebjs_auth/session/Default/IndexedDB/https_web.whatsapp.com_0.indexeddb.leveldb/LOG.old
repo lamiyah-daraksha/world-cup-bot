@@ -1,3 +1,26 @@
-2026/06/12-11:27:24.933 566c Reusing MANIFEST C:\Users\HP\Desktop\World Cup Folder\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/06/12-11:27:24.933 566c Recovering log #337
-2026/06/12-11:27:24.934 566c Reusing old log C:\Users\HP\Desktop\World Cup Folder\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000337.log 
+2026/06/12-11:41:05.430 3918 Reusing MANIFEST C:\Users\HP\Desktop\World Cup Folder\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/12-11:41:05.431 3918 Recovering log #337
+2026/06/12-11:41:05.440 3918 Reusing old log C:\Users\HP\Desktop\World Cup Folder\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000337.log 
+2026/06/12-11:48:31.461 71f8 Level-0 table #349: started
+2026/06/12-11:48:31.516 71f8 Level-0 table #349: 1484634 bytes OK
+2026/06/12-11:48:31.518 71f8 Delete type=0 #337
+2026/06/12-11:48:43.891 71f8 Compacting 1@1 + 8@2 files
+2026/06/12-11:48:44.251 71f8 Generated table #350@1: 56356 keys, 2249025 bytes
+2026/06/12-11:48:44.306 71f8 Generated table #351@1: 9322 keys, 2159567 bytes
+2026/06/12-11:48:44.362 71f8 Generated table #352@1: 2452 keys, 2152834 bytes
+2026/06/12-11:48:44.495 71f8 Generated table #353@1: 21886 keys, 2226551 bytes
+2026/06/12-11:48:44.624 71f8 Generated table #354@1: 17864 keys, 2202381 bytes
+2026/06/12-11:48:44.833 71f8 Generated table #355@1: 63051 keys, 2201046 bytes
+2026/06/12-11:48:45.078 71f8 Generated table #356@1: 103647 keys, 2255588 bytes
+2026/06/12-11:48:45.112 71f8 Generated table #357@1: 23174 keys, 506901 bytes
+2026/06/12-11:48:45.112 71f8 Compacted 1@1 + 8@2 files => 15953893 bytes
+2026/06/12-11:48:45.113 71f8 compacted to: files[ 0 0 8 0 0 0 0 ]
+2026/06/12-11:48:45.113 71f8 Delete type=2 #339
+2026/06/12-11:48:45.113 71f8 Delete type=2 #340
+2026/06/12-11:48:45.114 71f8 Delete type=2 #341
+2026/06/12-11:48:45.114 71f8 Delete type=2 #342
+2026/06/12-11:48:45.114 71f8 Delete type=2 #343
+2026/06/12-11:48:45.114 71f8 Delete type=2 #344
+2026/06/12-11:48:45.114 71f8 Delete type=2 #345
+2026/06/12-11:48:45.114 71f8 Delete type=2 #346
+2026/06/12-11:48:45.114 71f8 Delete type=2 #349
