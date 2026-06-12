@@ -119,23 +119,27 @@ function formatMatches(matches, label) {
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-        executablePath: process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-accelerated-2d-canvas',
-            '--no-first-run',
-            '--no-zygote',
-            '--single-process',
-            '--disable-gpu'
-        ]
+        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        headless: false,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
 
 client.on('qr', qr => {
     qrcode.generate(qr, { small: true });
     console.log('📱 Scan QR code!');
+});
+
+client.on('authenticated', () => {
+    console.log('🔐 Authenticated!');
+});
+
+client.on('auth_failure', (msg) => {
+    console.log('❌ Auth failure:', msg);
+});
+
+client.on('loading_screen', (percent, message) => {
+    console.log('⏳ Loading:', percent, message);
 });
 
 client.on('ready', () => {
