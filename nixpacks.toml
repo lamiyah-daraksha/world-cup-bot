@@ -1,6 +1,7 @@
-[phases.setup]
-nixPkgs = ["chromium", "chromium-driver"]
+The nixpacks.toml is not installing Chrome properly. The problem is Railway's container doesn't have Chrome at /usr/bin/google-chrome.
+Let me fix this properly. Update your nixpacks.toml file — delete everything and paste this:
+toml[phases.setup]
+nixPkgs = ["chromium"]
 
-[variables]
-PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
-CHROME_PATH = "/run/current-system/sw/bin/chromium-browser"
+[start]
+cmd = "node index.js"
